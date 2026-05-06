@@ -1,63 +1,59 @@
-📝 Problem Summary  
+# Day-2: Intermediate SQL Queries & Analysis
+
+## 📝 Problem Summary
+
 The objective of this phase was to practice intermediate and advanced SQL queries in the Databricks environment using Employee, Department, and Project datasets. I performed sorting, joins, grouping, aggregation, and subquery-based analysis to improve SQL problem-solving skills.
 
-🚀 Approach Taken  
+---
 
-Order By Queries:  
-Sorted employee records using ORDER BY based on salary, age, and hire date.
+## 🚀 Approach Taken
 
-Join Operations:  
-Combined Employee, Department, and Project tables using INNER JOIN and LEFT JOIN to retrieve related data.
+- **Order By Queries:** Sorted employee records using `ORDER BY` based on salary, age, and hire date.
 
-Aggregation & Grouping:  
-Used aggregate functions like COUNT(), SUM(), AVG(), and MAX() with GROUP BY to perform department-wise analysis.
+- **Join Operations:** Combined Employee, Department, and Project tables using `INNER JOIN` and `LEFT JOIN` to retrieve related data.
 
-Subqueries:  
-Implemented nested queries to find highest salary, second highest salary, employees earning above average salary, and department-wise comparisons.
+- **Aggregation & Grouping:** Used aggregate functions like `COUNT()`, `SUM()`, `AVG()`, and `MAX()` with `GROUP BY` to perform department-wise analysis.
 
-Filtering & Conditions:  
-Applied WHERE and HAVING clauses to filter records based on salary, age, departments, and project counts.
+- **Subqueries:** Implemented nested queries to find highest salary, second highest salary, employees earning above average salary, and department comparisons.
 
-🛠 Key Transformations & Queries  
+- **Filtering & Conditions:** Applied `WHERE` and `HAVING` clauses to filter records based on salary, age, departments, and project counts.
 
-Sorting:  
-Used ORDER BY to arrange employee data in ascending and descending order.
+---
 
-Joining Tables:  
-Retrieved employee names with department names and project details using JOIN operations.
+## 🛠 Key Transformations & Queries
 
-Aggregation:  
-Calculated total salary, average salary, employee count, and maximum salary department-wise.
+- **Sorting:** Used `ORDER BY` to arrange employee data in ascending and descending order.
 
-Subqueries:  
-Used nested SELECT statements for advanced salary and department analysis.
+- **Joining Tables:** Retrieved employee names with department names and project details using JOIN operations.
 
-Grouping:  
-Applied GROUP BY and HAVING to summarize and filter grouped data.
+- **Aggregation:** Calculated total salary, average salary, employee count, and maximum salary department-wise.
 
-💡 Learnings  
+- **Subqueries:** Used nested `SELECT` statements for advanced salary and department analysis.
 
-Databricks SQL Practice:  
-Improved SQL query writing and execution skills in Databricks notebooks.
+- **Grouping:** Applied `GROUP BY` and `HAVING` to summarize and filter grouped data.
 
-JOIN Concepts:  
-Learned how to combine multiple tables to retrieve related information.
+---
 
-Aggregate Functions:  
-Practiced using SUM(), AVG(), COUNT(), and MAX() for data analysis.
+## 💡 Learnings
 
-Subqueries:  
-Understood how nested queries work for solving complex SQL problems.
+- **Databricks SQL Practice:** Improved SQL query writing and execution skills in Databricks notebooks.
 
-SQL Problem Solving:  
-Gained hands-on experience solving real-time and interview-style SQL questions.
+- **JOIN Concepts:** Learned how to combine multiple tables to retrieve related information.
 
-📁 Deliverables in this Folder  
+- **Aggregate Functions:** Practiced using `SUM()`, `AVG()`, `COUNT()`, and `MAX()` for data analysis.
 
-Queries.sql: Full set of SQL queries from Question 31 to 65.  
+- **Subqueries:** Understood how nested queries work for solving complex SQL problems.
 
-README.md: Documentation for Day 2 SQL practice.  
+- **SQL Problem Solving:** Gained hands-on experience solving real-time and interview-style SQL questions.
 
-datacreation.sql: Table creation and sample data insertion queries.  
+---
 
-outputs/: Screenshots of SQL query results from Databricks notebooks.
+## 📁 Deliverables in this Folder
+
+- `Queries.sql` : Full set of SQL queries from Question 31 to 65.
+
+- `README.md` : Documentation for Day 2 SQL practice.
+
+- `datacreation.sql` : Table creation and sample data insertion queries.
+
+- `outputs/` : Screenshots of SQL query results from Databricks notebooks.
