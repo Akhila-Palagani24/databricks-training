@@ -1,71 +1,73 @@
-# Week 1 - Day 1 SQL Practice
+# Week-1: SQL Practice
 
 ## 📝 Problem Summary
 
-The objective of this task was to practice basic SQL queries using Employee, Department, and Project tables. I worked on table creation, data insertion, filtering, and simple query operations in the Databricks/MySQL environment.
+The objective of this task was to practice basic and intermediate SQL queries using Employee, Department, and Project tables in the Databricks/MySQL environment.
+
+The practice included:
+- Table creation
+- Data insertion
+- Filtering
+- Sorting
+- Joins
+- Grouping
+- Aggregate functions
+- Subqueries
 
 ---
 
 ## 🚀 Approach Taken
 
-- **Table Creation:** Created Employee, Department, and Project tables with appropriate columns and data types.
-
-- **Data Insertion:** Inserted sample records into all tables using `INSERT` statements.
-
-- **Basic Queries:** Practiced `SELECT` queries to retrieve data from tables.
-
-- **Filtering:** Used the `WHERE` clause to filter records based on conditions.
-
-- **String Matching:** Applied `LIKE` operator for pattern matching queries.
+- Created Employee, Department, and Project tables.
+- Inserted sample data using `INSERT` statements.
+- Practiced `SELECT`, `WHERE`, and `LIKE` queries.
+- Used `ORDER BY` for sorting records.
+- Performed `INNER JOIN` and `LEFT JOIN`.
+- Applied aggregate functions like:
+  - `COUNT()`
+  - `SUM()`
+  - `AVG()`
+  - `MAX()`
+  - `MIN()`
+- Used `GROUP BY` and `HAVING` for grouped analysis.
+- Solved advanced queries using subqueries.
 
 ---
 
-## 🛠 Key Transformations & Queries
+## 🛠 Topics Covered
 
-- **Selection:** Retrieved all records and selected specific columns from tables.
-
-- **Filtering:** Filtered employees based on age, department, and salary conditions.
-
-- **String Matching:** Used `LIKE` for searching names starting with or containing specific letters.
-
-- **Aggregation:** Practiced aggregate functions like `SUM()`, `AVG()`, `MIN()`, `MAX()`, and `COUNT()`.
-
-- **Grouping:** Applied `GROUP BY` to analyze department-wise employee details.
+- SELECT
+- WHERE
+- LIKE
+- ORDER BY
+- GROUP BY
+- HAVING
+- Aggregate Functions
+- INNER JOIN
+- LEFT JOIN
+- Subqueries
 
 ---
 
 ## 💡 Learnings
 
-- **SQL Basics:** Learned how to write and execute basic SQL queries.
-
-- **Filtering Data:** Understood the use of the `WHERE` clause for conditional filtering.
-
-- **Aggregate Functions:** Practiced calculating totals, averages, and counts using SQL functions.
-
-- **Grouping Data:** Learned how `GROUP BY` works with aggregate functions.
-
-- **Database Relationships:** Understood how tables are connected using IDs.
+- Improved SQL query writing skills.
+- Learned filtering and sorting techniques.
+- Understood JOIN operations between tables.
+- Practiced aggregate functions and grouping.
+- Learned how to solve advanced SQL problems using subqueries.
 
 ---
 
-## 📁 Deliverables in this Folder
+## 📁 Deliverables
 
-- `Queries.sql` : SQL queries for basic practice questions.
-
-- `README.md` : Documentation for Day 1 SQL practice.
-
-- `datacreation.sql` : Table creation and sample data insertion queries.
-
-- `outputs/` : Screenshots of SQL query results.
+- `Queries.sql` → SQL practice queries
+- `datacreation.sql` → Table creation and data insertion queries
+- `README.md` → Documentation for Week-1 SQL practice
+- `Outputs/` → Screenshots of SQL query outputs
 
 ---
 
-## ✅ Topics Covered
+## 🎯 Outcome
 
-- SELECT
-- WHERE
-- LIKE
-- GROUP BY
-- HAVING
-- Aggregate Functions
-- Basic SQL Queries
+This practice helped improve my understanding of SQL fundamentals and intermediate concepts in Databricks/MySQL.
