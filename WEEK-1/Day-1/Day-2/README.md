@@ -1,4 +1,4 @@
-# Day-2: Intermediate SQL Queries & Analysis
+# Day-1: Intermediate SQL Queries & Analysis
 
 ## 📝 Problem Summary
 
