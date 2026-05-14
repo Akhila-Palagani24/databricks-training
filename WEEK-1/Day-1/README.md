@@ -1,73 +1,73 @@
-# Week-1: SQL Practice
+Databricks-training
+📘 SQL Practice - Day 1
+🚀 Overview
 
-## 📝 Problem Summary
+On Day 1, I practiced the basics of SQL using tables like Employee, Department, and Project. The focus was on learning how to retrieve, filter, sort, and analyze data using SQL queries.
 
-The objective of this task was to practice basic and intermediate SQL queries using Employee, Department, and Project tables in the Databricks/MySQL environment.
+You can view my complete Day 1 SQL practice here:
 
-The practice included:
-- Table creation
-- Data insertion
-- Filtering
-- Sorting
-- Joins
-- Grouping
-- Aggregate functions
-- Subqueries
+https://www.db-fiddle.com/f/4TtDKqyFyiFfYd22omVtB3/6
 
----
+This link contains the full database schema, SQL queries, and outputs created using DB Fiddle.
 
-## 🚀 Approach Taken
+🧠 Topics Covered
+🔹 1. Basic SELECT Queries
+Selecting all columns and specific columns
+Using:
+SELECT *
+Column-based selection
+🔹 2. Filtering Data
+Using WHERE clause
+Conditions such as:
+age > 30
+department_id = 1
+Pattern matching using:
+LIKE 'J%'
+LIKE '%a%'
+LIKE '_o%'
+🔹 3. Working with Dates
+Extracting year and month using:
+YEAR(hire_date)
+MONTH(hire_date)
+Filtering records:
+before/after dates
+between date ranges
+specific years
+🔹 4. Aggregate Functions
+SUM() → Total salary
+AVG() → Average salary
+MIN() / MAX() → Lowest and highest salary
+COUNT() → Total employees
+🔹 5. GROUP BY & HAVING
+Grouping data by:
+department
+year
+Filtering grouped data using HAVING
+🔹 6. Sorting Data
+Using ORDER BY
+Ascending (ASC)
+Descending (DESC)
+Sorting using multiple columns
+🔹 7. Joins
+INNER JOIN
+LEFT JOIN
+Combining:
+Employee + Department
+Employee + Project
+🔹 8. Real-world Queries
+Employees per department
+Salary analysis
+Hiring trends
+Department insights
+💡 Key Learnings
+Importance of correct date formats (YYYY-MM-DD)
+Difference between WHERE and HAVING
+Understanding GROUP BY
+Using joins to combine tables
+Writing clean SQL queries
+🛠️ Tools Used
+DB Fiddle
+Databricks/MySQL
+🎯 Conclusion
 
-- Created Employee, Department, and Project tables.
-- Inserted sample data using `INSERT` statements.
-- Practiced `SELECT`, `WHERE`, and `LIKE` queries.
-- Used `ORDER BY` for sorting records.
-- Performed `INNER JOIN` and `LEFT JOIN`.
-- Applied aggregate functions like:
-  - `COUNT()`
-  - `SUM()`
-  - `AVG()`
-  - `MAX()`
-  - `MIN()`
-- Used `GROUP BY` and `HAVING` for grouped analysis.
-- Solved advanced queries using subqueries.
-
----
-
-## 🛠 Topics Covered
-
-- SELECT
-- WHERE
-- LIKE
-- ORDER BY
-- GROUP BY
-- HAVING
-- Aggregate Functions
-- INNER JOIN
-- LEFT JOIN
-- Subqueries
-
----
-
-## 💡 Learnings
-
-- Improved SQL query writing skills.
-- Learned filtering and sorting techniques.
-- Understood JOIN operations between tables.
-- Practiced aggregate functions and grouping.
-- Learned how to solve advanced SQL problems using subqueries.
-
----
-
-## 📁 Deliverables
-
-- `Queries.sql` → SQL practice queries
-- `datacreation.sql` → Table creation and data insertion queries
-- `README.md` → Documentation for Week-1 SQL practice
-- `Outputs/` → Screenshots of SQL query outputs
-
----
-
-## 🎯 Outcome
-
-This practice helped improve my understanding of SQL fundamentals and intermediate concepts in Databricks/MySQL.
+Day 1 helped me build a strong foundation in SQL basics including querying, filtering, grouping, sorting, and joins. These concepts are essential for real-world database operations and problem-solving.
