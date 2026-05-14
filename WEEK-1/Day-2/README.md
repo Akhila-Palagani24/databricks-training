@@ -1,12 +1,21 @@
-
 Employee SQL Queries
-📌 Overview
+Overview
+This project contains basic to intermediate SQL queries performed on an Employees table.
 
-This repository contains a collection of basic to intermediate SQL queries performed on an Employees table. The purpose of this project is to strengthen SQL fundamentals through practical query execution and data analysis.
+The queries demonstrate the use of:
 
-The queries cover essential SQL concepts including data retrieval, filtering, sorting, grouping, aggregation, and pattern matching.
-
-🗂 Table Structure
+SELECT
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+LIMIT
+DISTINCT
+IN
+BETWEEN
+LIKE
+Aggregate Functions
+Table Structure
 CREATE TABLE Employees (
     emp_id INT,
     emp_name VARCHAR(100),
@@ -15,144 +24,94 @@ CREATE TABLE Employees (
     experience INT,
     city VARCHAR(50)
 );
-🚀 SQL Concepts Covered
-🔹 Basic SELECT Queries
-Retrieve all employee records
-Display selected columns
-Fetch employee names, salaries, departments, and experience details
-🔹 Filtering Data using WHERE
-Employees from specific departments
-Employees from particular cities
-Salary-based filtering
-Experience-based filtering
-
-Examples:
-
+Topics Covered
+1. Basic SELECT Queries
+Display all employee details
+Display employee names and salaries
+Display employee names and departments
+Display employee names and experience
+2. WHERE Clause Queries
 Employees from IT department
-Salary greater than 70000
-Experience less than 4 years
-🔹 Aggregate Functions
-
-Used aggregate functions for data analysis:
-
-SUM() → Total salary
-AVG() → Average salary
-MAX() → Highest salary
-MIN() → Lowest experience
-COUNT() → Employee count
-🔹 GROUP BY & HAVING
-
-Performed grouped analysis to understand department-wise and city-wise employee data.
-
-Examples:
-
-Departments with more than 3 employees
-Departments where average salary exceeds 60000
-Cities with multiple employees
-🔹 Sorting & Limiting Records
-
-Used sorting and limiting operations to retrieve top records.
-
-Examples:
-
-Top 5 highest-paid employees
-Employees with highest experience
-Highest salary employee
-
-Concepts used:
-
-ORDER BY
-LIMIT
-🔹 DISTINCT Queries
-
-Retrieved unique values from columns such as:
-
-Departments
-Cities
-Salary values
-Experience values
-🔹 Comparison Operators
-
-Practiced filtering using operators like:
-
->
-<
->=
-<=
-<>
-
-Examples:
-
+Employees working in Hyderabad
+Employees with salary greater than 70000
+Employees with experience less than 4 years
+Employees from Finance department
+3. Aggregate Functions
+Total salary department-wise
+Average salary in each department
+Maximum salary in each department
+Minimum experience department-wise
+Count employees in each city
+4. GROUP BY & HAVING
+Departments having more than 3 employees
+Departments where average salary is greater than 60000
+Cities having more than 2 employees
+Departments where total salary is greater than 200000
+Departments where maximum salary is above 90000
+5. Sorting & Limiting Records
+Top 5 highest paid employees
+Top 3 employees with highest experience
+Top 2 salaries from Finance department
+Top 4 employees from Hyderabad
+Top 1 highest salary employee
+6. DISTINCT Queries
+Distinct department names
+Distinct city names
+Distinct salary values
+Distinct department and city combinations
+Distinct experience values
+7. Comparison Operators
 Salary >= 80000
+Experience <= 3
+Salary <> 45000
+Salary < 50000
 Experience > 5
-🔹 Logical Operators
-
-Worked with:
-
-AND
-OR
-NOT
-
+8. Logical Operators
+AND condition
+OR condition
+NOT condition
 Examples:
 
 IT employees with salary > 70000
 Employees from Hyderabad OR Bangalore
 Employees NOT from Sales department
-🔹 IN & NOT IN Operators
-
-Filtered records using multiple values.
-
-Examples:
-
-Employees from IT or Finance
+9. IN & NOT IN Operators
 Employees working in Hyderabad or Mumbai
+Employees from IT or Finance
 Employees not from Chennai or Pune
-🔹 BETWEEN Operator
-
-Used range-based filtering for:
-
-Salary ranges
-Experience ranges
-Employee ID ranges
-🔹 LIKE Operator
-
-Performed pattern matching using:
-
-% wildcard
-_ wildcard
-
-Examples:
-
+Employees with specific salary values
+10. BETWEEN Operator
+Salary between 50000 and 80000
+Experience between 3 and 6
+Employee IDs between 105 and 112
+11. LIKE Operator
 Names starting with 'R'
+Names ending with 'a'
+Names containing 'v'
 Cities starting with 'B'
 Departments ending with 's'
-🛠 SQL Features Used
-SQL Concept	Purpose
-SELECT	Retrieve data
+SQL Concepts Used
+Concept	Description
+SELECT	Retrieve data from table
 WHERE	Filter records
-GROUP BY	Group rows
-HAVING	Filter grouped data
-ORDER BY	Sort results
-LIMIT	Restrict output rows
-DISTINCT	Remove duplicates
+GROUP BY	Group rows with same values
+HAVING	Filter grouped records
+ORDER BY	Sort records
+LIMIT	Restrict number of rows
+DISTINCT	Remove duplicate values
 IN	Match multiple values
-BETWEEN	Filter within ranges
+BETWEEN	Filter within range
 LIKE	Pattern matching
-💻 Database Compatibility
-
-These queries are compatible with:
+Database Compatibility
+These queries work in:
 
 MySQL
 PostgreSQL
 SQLite
 MariaDB
+Note: LIMIT syntax may vary in SQL Server (TOP is used instead).
 
-Note: SQL Server uses TOP instead of LIMIT.
-
-📖 Example Query
+Example Query
 SELECT emp_name, salary
 FROM Employees
 WHERE salary > 70000;
-🎯 Learning Outcome
-
-This project helped improve my understanding of SQL fundamentals and strengthened my ability to write efficient queries for real-world database operations. It also provided hands-on experience with filtering, grouping, sorting, aggregation, and data analysis techniques.
